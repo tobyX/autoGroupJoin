@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd"
+	languagecode="de" languagename="Deutsch" countrycode="de">
+
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.autoGroupJoinDays"><![CDATA[Beitritt nach Tagen]]></item>
+		<item name="wcf.acp.group.autoGroupJoinDays.description"><![CDATA[Wieviele Tage nach der Registrierung soll ein Benutzer automatisch in diese Gruppe aufgenommen werden?]]></item>
+		<item name="wcf.acp.group.autoGroupJoinActivityPoints"><![CDATA[Beitritt nach Aktivitätspunkten]]></item>
+		<item name="wcf.acp.group.autoGroupJoinActivityPoints.description"><![CDATA[Wieviele Punkte benötigt ein Benutzer, um automatisch in diese Gruppe aufgenommen zu werden?]]></item>
+		<item name="wcf.acp.group.autoGroupJoin.error.notValid"><![CDATA[Dieser Wert ist nicht zulässig! Zum Zurücksetzen das Feld einfach leeren.]]></item>
+		<item name="wcf.acp.group.autoGroupJoin.error.tooLow"><![CDATA[Negative Zahlen sind nicht zulässig! Zum Zurücksetzen das Feld einfach leeren.]]></item>
+	</category>
+
+</language>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/eventListener.xsd">
+	<import>
+		<eventlistener>
+			<eventclassname><![CDATA[wcf\acp\form\UserGroupAddForm]]></eventclassname>
+			<environment>admin</environment>
+			<eventname>assignVariables</eventname>
+			<listenerclassname><![CDATA[wcf\system\event\listener\AutoGroupJoinACPListener]]></listenerclassname>
+			<inherit>1</inherit>
+		</eventlistener>
+		<eventlistener>
+			<eventclassname><![CDATA[wcf\acp\form\UserGroupAddForm]]></eventclassname>
+			<environment>admin</environment>
+			<eventname>readFormParameters</eventname>
+			<listenerclassname><![CDATA[wcf\system\event\listener\AutoGroupJoinACPListener]]></listenerclassname>
+			<inherit>1</inherit>
+		</eventlistener>
+		<eventlistener>
+			<eventclassname><![CDATA[wcf\acp\form\UserGroupAddForm]]></eventclassname>
+			<environment>admin</environment>
+			<eventname>validate</eventname>
+			<listenerclassname><![CDATA[wcf\system\event\listener\AutoGroupJoinACPListener]]></listenerclassname>
+			<inherit>1</inherit>
+		</eventlistener>
+		<eventlistener>
+			<eventclassname><![CDATA[wcf\acp\form\UserGroupAddForm]]></eventclassname>
+			<environment>admin</environment>
+			<eventname>save</eventname>
+			<listenerclassname><![CDATA[wcf\system\event\listener\AutoGroupJoinACPListener]]></listenerclassname>
+			<inherit>1</inherit>
+		</eventlistener>
+
+	</import>
+</data>
