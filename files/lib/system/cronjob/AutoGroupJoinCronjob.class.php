@@ -28,7 +28,7 @@ class AutoGroupJoinCronjob extends AbstractCronjob
 		parent :: execute($cronjob);
 
 		$objectList = new UserGroupList();
-		$objectList->getConditionBuilder()->add('autoGroupJoinDays IS NOT NULL OR autoGroupJoinActivityPoints IS NOT NULL');
+		$objectList->getConditionBuilder()->add('autoGroupJoinDays IS NOT NULL AND autoGroupJoinDays <> 0 OR autoGroupJoinActivityPoints IS NOT NULL AND autoGroupJoinActivityPoints <> 0');
 		$objectList->readObjects();
 
 		if (count($objectList))
