@@ -9,8 +9,8 @@
 		<packagename language="de"><![CDATA[Automatischer Gruppenbeitritt]]></packagename>
 		<packagedescription><![CDATA[Join users automatically to groups]]></packagedescription>
 		<packagedescription language="de"><![CDATA[Benutzer werden automatisch in Gruppen aufgenommen]]></packagedescription>
-		<version>1.0.0 Alpha 2</version>
-		<date>2014-01-16</date>
+		<version>1.0.0 Alpha 3</version>
+		<date>2014-01-22</date>
 		<license><![CDATA[Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International <http://creativecommons.org/licenses/by-nc-nd/4.0/deed.en>]]></license>
 	</packageinformation>
 
