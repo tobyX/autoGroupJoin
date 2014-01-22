@@ -28,8 +28,8 @@ class AutoGroupJoinACPListener implements IEventListener
 		switch ($eventName)
 		{
 			case 'readFormParameters':
-				if (isset($_POST['autoGroupJoinDays']) && !empty($_POST['autoGroupJoinDays'])) $this->autoGroupJoinDays = intval($_POST['autoGroupJoinDays']);
-				if (isset($_POST['autoGroupJoinActivityPoints']) && !empty($_POST['autoGroupJoinActivityPoints'])) $this->autoGroupJoinActivityPoints = intval($_POST['autoGroupJoinActivityPoints']);
+				if (isset($_POST['autoGroupJoinDays']) && trim($_POST['autoGroupJoinDays']) != "") $this->autoGroupJoinDays = intval($_POST['autoGroupJoinDays']);
+				if (isset($_POST['autoGroupJoinActivityPoints']) && trim($_POST['autoGroupJoinActivityPoints']) != "") $this->autoGroupJoinActivityPoints = intval($_POST['autoGroupJoinActivityPoints']);
 			break;
 
 			case 'validate':
