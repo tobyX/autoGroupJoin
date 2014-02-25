@@ -55,13 +55,13 @@ class AutoGroupJoinCronjob extends AbstractCronjob
 
 		if ($group->autoGroupJoinDays)
 		{
-			$objectList->getConditionBuilder()->add("registrationDate < ?",
+			$objectList->getConditionBuilder()->add("registrationDate <= ?",
 							array(TIME_NOW - ($group->autoGroupJoinDays * 86400)));
 		}
 
 		if ($group->autoGroupJoinActivityPoints)
 		{
-			$objectList->getConditionBuilder()->add("activityPoints > ?",
+			$objectList->getConditionBuilder()->add("activityPoints >= ?",
 							array($group->autoGroupJoinActivityPoints));
 		}
 

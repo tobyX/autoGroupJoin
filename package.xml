@@ -9,7 +9,7 @@
 		<packagename language="de"><![CDATA[Automatischer Gruppenbeitritt]]></packagename>
 		<packagedescription><![CDATA[Join users automatically to groups]]></packagedescription>
 		<packagedescription language="de"><![CDATA[Benutzer werden automatisch in Gruppen aufgenommen]]></packagedescription>
-		<version>1.0.0 Alpha 3</version>
+		<version>1.0.0 Alpha 4</version>
 		<date>2014-01-22</date>
 		<license><![CDATA[Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International <http://creativecommons.org/licenses/by-nc-nd/4.0/deed.en>]]></license>
 	</packageinformation>
@@ -36,6 +36,11 @@
 
 		<!-- languages -->
 		<instruction type="language">language/*.xml</instruction>
+	</instructions>
+
+	<instructions type="update" fromversion="1.0.0 Alpha 3">
+		<!-- files -->
+		<instruction type="file" application="wcf">files.tar</instruction>
 	</instructions>
 
 </package>
